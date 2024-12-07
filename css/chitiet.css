@@ -1,0 +1,487 @@
+.main1{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', 'sans-serif';
+}
+.small-container1{
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+.row1{
+    display: flex;
+    flex-direction: row; /* Đảm bảo các div nằm ngang */
+    align-items: flex-start;
+    justify-content: space-between; /* Tạo khoảng cách đều giữa các div */
+    flex-wrap: nowrap; /* Đảm bảo không xuống dòng */
+}
+.single-product1 {
+    margin-top: 80px;
+}
+.small-img-row1 {
+    display: flex;
+    justify-content: space-around;
+}
+.single-product1 {
+    margin-top: 80px;
+}
+.small-img-row1 {
+    display: flex;
+    justify-content: space-around;
+}
+.col-21 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.small-img-col1 {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.single-product1 .col-21 img{
+    padding: 0;
+}
+.single-product1 .col-21{
+    padding: 20px;
+}
+.col-21{
+    flex: 1; /* Đặt mỗi col-21 chiếm không gian đều */
+    max-width: 48%; /* Giới hạn chiều rộng mỗi col-21 để nằm ngang */
+    box-sizing: border-box;
+}
+.col-21 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.single-product1 select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+.single-product1 h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+.single-product1 input {
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid rgb(255, 142, 85)
+}
+
+.input:focus {
+    outline: none;
+}
+a {
+    text-decoration: none;
+    color: #555;
+}
+.single-product1 .fa{
+    color: #ff523b;
+    margin-left: 10px; 
+}
+p {
+    color: #555;
+}
+.btn1{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn1:hover {
+    background: #563434;
+}
+.box1 {
+    border: 2px solid black; /* Đặt viền đen dày 2px */
+    padding: 10px;           /* Khoảng cách bên trong div */ 
+    box-sizing: border-box;  /* Đảm bảo viền không làm tăng kích thước */
+}
+.container-ngang {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Khoảng cách giữa các thẻ <p> */
+    margin-bottom: 10px;
+}
+.container-ngang p {
+    margin: 0;
+}
+#giatien{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.label1 {
+    font-weight: bold; /* Làm chữ đậm */
+    display: block; /* Đặt label thành khối để nó chiếm toàn bộ chiều rộng */
+}
+.dai {
+    min-width: 200px; /* Có thể điều chỉnh giá trị này */
+    padding: 5px; /* Thêm khoảng cách bên trong */
+    font-size: 16px; /* Kích thước chữ */
+}
+.select-container1 {
+    display: flex; /* Sử dụng Flexbox để căn chỉnh các phần tử trên cùng một hàng */
+    align-items: flex-start; /* Căn giữa các phần tử theo chiều dọc */
+    gap: 10px; /* Khoảng cách giữa các phần tử */
+}
+.select-container1 > div {
+    display: flex; /* Đặt các phần tử bên trong div thành flexbox */
+    flex-direction: column; /* Sắp xếp các phần tử theo cột */
+}
+.rating1 {
+    margin: 20px 0; /* Khoảng cách bên trên và dưới */
+}
+
+.rating1 .star1 {
+    font-size: 20px; /* Kích thước ngôi sao */
+}
+
+.review-form {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.rating {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.star {
+    font-size: 24px;
+    color: #ff523b;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.star:hover {
+    color: #ff9055; /* Màu khi hover */
+}
+
+.btn1 {
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background: #563434;
+}
+.comments-section {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+
+.comment {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.comment p {
+    margin: 5px 0;
+}
+/*=============================================chinh====*/
+header{
+    height:41px;
+    background-color: rgb(47, 44, 44);
+    color:white;
+    font-size: 14px;
+}
+.header__bar-list-items-link{
+    color:white;
+    text-decoration: none;
+}
+
+.header__bar{
+    display:flex;
+    justify-content: space-between;
+}
+
+.header__bar-list{
+    list-style: none;
+    padding-left:0;
+    
+}
+
+.header__bar-list-items{
+    display: inline-block;
+    border-right: 1px solid rgb(79, 70, 70);
+    padding: 0 10px;
+}
+
+.header__bar-list-items-separate{
+    border-right: none;
+    padding:0;
+}
+
+
+.header__bar-list-items-link:hover{
+    color:rgba(255, 3, 3, 0.7);
+}
+
+.gid{
+    width:1276px;
+    max-width: 100%;
+    margin:0 auto;
+}
+/*==========================*/
+.menu {
+    background-color: #d5f4c9;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    padding: 20px 0 10px 0;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container__menu-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.container__menu-logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.container__menu-logo-photo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.container__menu-list-items {
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-family:Time new roman;
+    font-weight: 600;
+}
+.container__submenu{
+    display:none;
+    position: absolute; /* Đặt vị trí tuyệt đối cho submenu */
+    z-index: 20; /* Đặt z-index cao hơn để submenu nổi lên trên */
+    background-color: white; /* Đặt màu nền cho submenu để dễ nhìn */
+}
+.container__menu-list-items-hover:hover .container__submenu{
+    display: block; /* Hiển thị submenu khi hover */
+    background-color: rgb(255, 255, 255);
+    width:170px;
+    position:absolute;
+    margin-top: 10px;
+    padding:8px;
+}
+.container__submenu-item{
+    border-bottom: 2px solid rgb(173, 146, 146);
+    padding: 10px 8px;
+}
+.container__submenu-item:last-child{
+    border-bottom:none;
+}
+.container_menu-congcu {
+    display: flex;
+    margin: 0 0 0 20px;
+    align-items: center;
+    color:rgba(255, 3, 3, 0.7);
+}
+
+.container_menu-congcu-topsearch {
+    margin: 0 0 0 2px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#search-box {
+
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    margin-left: 5px;
+}
+
+.container_menu-congcu-package {
+    margin: 0 0 0 20px;
+}
+/*=========================================*/
+.policy_shop {
+    background-color: rgb(242, 235, 222);
+    margin-top: 20px;
+    padding: 55px 80px;
+    width:100%;
+    min-height:155px;
+    display:flex;
+
+}
+.policy_shop-khung{
+    width:25%;
+    padding: 0 15px;
+    font-size: 13px;
+    color:rgb(47, 47, 46);
+    border-right: 2px solid rgba(196, 188, 188, 0.5);
+    box-shadow: 2px 0 5px rgba(196, 188, 188, 0.5); /* Thêm hiệu ứng viền mờ sáng */
+}
+.policy_shop-khung:last-child{
+    border-right: none;
+}
+.policy_shop-khung h4{
+    text-decoration: underline;
+    color:black;
+
+}
+footer{
+    padding:10px 0 10px 0;
+    width:100%;
+    height: 200px;
+    color: #888;
+    unicode-bidi: isolate;
+    font-family: "Montserrat", Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    background: #1e1e1e;
+}
+.row {
+    display:flex;
+    justify-content: space-around;
+   
+}
+.row ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.f-social{
+    margin:0;
+}
+.clf-media{
+    display:flex;
+}
+.clf-media >li{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.row ul li {
+    margin-bottom: 10px; /* Tạo khoảng cách 10px giữa các mục */
+}
+.row a{
+    text-decoration: none;
+    color:#888;
+}
+.row a:hover{
+    color:white;
+    cursor:pointer;
+}
+
+.accordion-toggle{
+    font-size: 15px;
+    color:rgb(234, 224, 224);
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}
+.newsletter label {
+    font-weight: normal;
+    position: relative;
+}
+
+label {
+    display: block; /* Đảm bảo label chiếm toàn bộ chiều rộng và xuống dòng */
+    max-width: 100%;
+    margin-bottom: 5px; /* Khoảng cách giữa label và input */
+}
+.lable{
+    width:100%;
+}
+.newsletter input {
+    height: 36px;
+    background: #343434;
+    border: none;
+    color: #ccc;
+    padding: 0 20px;
+    padding-right: 90px;
+    width: 100%;
+    outline: 0;
+    margin-top: 10px; /* Khoảng cách giữa label và input */
+    display: block; /* Đảm bảo input cũng là block để xuống dòng */
+}
+.newsletter button {
+    background: #666;
+    position: absolute;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .12);
+    border: none;
+    font-size: 15px;
+    font-weight: normal;
+    right: 0;
+    bottom: 0px;
+}
+.footer-bottom {
+    padding:25px 0;
+    width:100%;
+    height:210px;
+}
+
+
+.top_bar .tb-right > li > a {
+    color: rgb(243, 10, 10);
+}
+.container__submenu-item2{
+    border-bottom: 2px solid rgb(173, 146, 146);
+    padding: 10px 8px;
+}
+.container__submenu-item2:last-child{
+    border-bottom:none;
+}
